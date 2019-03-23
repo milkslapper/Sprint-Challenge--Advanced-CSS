@@ -1,3 +1,14 @@
+@media (max-width:500px) {
+  .space-images .sky {
+    display: none;
+  }
+  .space-images .launch {
+    display: none;
+  }
+  .space-images .blast {
+    width: 100rem;
+  }
+}
 .btn {
   font-size: 1.6rem;
   width: 10rem;
@@ -213,13 +224,12 @@ footer {
 .home .space-images {
   display: flex;
   flex-wrap: wrap;
-  width: 100%;
+  justify-content: space-around;
+  flex-direction: row;
+  margin: 1.5rem 2.5%;
 }
 .home .space-images img {
-  width: 28%;
-  margin: 20px 2.5%;
   border-radius: 20px;
-  height: 100%;
 }
 .home .visit-planets {
   padding: 15px;
