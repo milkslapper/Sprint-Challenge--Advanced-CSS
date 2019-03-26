@@ -24,3 +24,50 @@
 @border-real: #dee2e6;
 
 // Mobile var
+@phone: ~"(max-width:500px)";
+@desktop: ~"(min-width:800px)";
+
+
+
+.space-images {
+@media @phone {
+        .sky {
+            display: none;
+        }
+        .launch {
+            display: none;
+        }
+        .blast {
+            width: 100rem;
+            
+        }
+    }
+}
+
+
+
+
+.walk {
+    
+    @media @phone {
+        
+        flex-direction: column-reverse;
+    }
+    .walk-img {
+        width: 100%;
+    }
+    .walk-text{
+        
+    }
+    .btn {
+        @media @phone {
+
+        
+        
+        width: 100%;
+        height: 5.5rem;
+        padding-top: 1.7rem;
+        }
+    }
+}
+
